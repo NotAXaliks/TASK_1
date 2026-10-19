@@ -1,0 +1,299 @@
+$ bash restore_archive.sh
+Восстанавливаю архив ООО «Рога и Копыта»...
+
+Готово! Восстановлено документов: 15
+Архив лежит в папке archive.
+
+Возвращайся к README.md — шаг 3.
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q2)
+$ git status
+On branch q2
+Your branch is up to date with 'origin/q2'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archive/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q2)
+$ notepad commands.txt &
+[1] 1282
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q2)
+$ cd ~
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~
+$ cd archive
+bash: cd: archive: No such file or directory
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~
+$ cd projects
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects
+$ cd archive
+bash: cd: archive: No such file or directory
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects
+$ cd TASK_1
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q2)
+$ git status
+On branch q2
+Your branch is up to date with 'origin/q2'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archive/
+        commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q2)
+$ cd archive
+
+grep "Сумма" 2022/buhgalteriya/schet_0001.txt
+Сумма к оплате: 48 500 руб., в т. ч. НДС 20%
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$ grep -r "Earl Grey"
+2022/sklad/nakladnaya_0002.txt:2. Чай Earl Grey — 20 шт. × 300 руб.
+2023/sklad/nakladnaya_0005.txt:2. Чай Earl Grey — 10 шт. × 300 руб.
+2024/sklad/otchet_0010.txt:- Принято товара: Чай Earl Grey, 200 шт.
+2025/buhgalteriya/otchet_0015.txt:0001 | Чай Earl Grey | 22 шт. | 12100 руб.
+2025/buhgalteriya/otchet_0015.txt:0004 | Чай Earl Grey | 26 шт. | 23140 руб.
+2025/buhgalteriya/otchet_0015.txt:0017 | Чай Earl Grey | 38 шт. | 25840 руб.
+2025/buhgalteriya/otchet_0015.txt:0041 | Чай Earl Grey | 20 шт. | 6000 руб.
+2025/buhgalteriya/otchet_0015.txt:0051 | Чай Earl Grey | 46 шт. | 16100 руб.
+2025/buhgalteriya/otchet_0015.txt:0052 | Чай Earl Grey | 20 шт. | 3800 руб.
+2025/buhgalteriya/otchet_0015.txt:0060 | Чай Earl Grey | 6 шт. | 3840 руб.
+2025/buhgalteriya/otchet_0015.txt:0097 | Чай Earl Grey | 41 шт. | 16400 руб.
+2025/buhgalteriya/otchet_0015.txt:0115 | Чай Earl Grey | 22 шт. | 6380 руб.
+2025/buhgalteriya/otchet_0015.txt:0117 | Чай Earl Grey | 9 шт. | 3870 руб.
+2025/buhgalteriya/otchet_0015.txt:0122 | Чай Earl Grey | 11 шт. | 2860 руб.
+2025/buhgalteriya/otchet_0015.txt:0127 | Чай Earl Grey | 5 шт. | 600 руб.
+2025/buhgalteriya/otchet_0015.txt:0130 | Чай Earl Grey | 16 шт. | 2080 руб.
+2025/buhgalteriya/otchet_0015.txt:0162 | Чай Earl Grey | 22 шт. | 2640 руб.
+2025/buhgalteriya/otchet_0015.txt:0163 | Чай Earl Grey | 35 шт. | 16800 руб.
+2025/buhgalteriya/otchet_0015.txt:0169 | Чай Earl Grey | 16 шт. | 15520 руб.
+2025/buhgalteriya/otchet_0015.txt:0196 | Чай Earl Grey | 24 шт. | 11520 руб.
+2025/buhgalteriya/otchet_0015.txt:0202 | Чай Earl Grey | 37 шт. | 6660 руб.
+2025/buhgalteriya/otchet_0015.txt:0207 | Чай Earl Grey | 5 шт. | 4850 руб.
+2025/buhgalteriya/otchet_0015.txt:0211 | Чай Earl Grey | 17 шт. | 4590 руб.
+2025/buhgalteriya/otchet_0015.txt:0217 | Чай Earl Grey | 18 шт. | 17280 руб.
+2025/buhgalteriya/otchet_0015.txt:0219 | Чай Earl Grey | 47 шт. | 23030 руб.
+2025/buhgalteriya/otchet_0015.txt:0225 | Чай Earl Grey | 40 шт. | 4800 руб.
+2025/buhgalteriya/otchet_0015.txt:0279 | Чай Earl Grey | 10 шт. | 7500 руб.
+2025/buhgalteriya/otchet_0015.txt:0288 | Чай Earl Grey | 23 шт. | 13340 руб.
+2025/buhgalteriya/otchet_0015.txt:0289 | Чай Earl Grey | 24 шт. | 18720 руб.
+2025/buhgalteriya/otchet_0015.txt:0346 | Чай Earl Grey | 39 шт. | 10920 руб.
+2025/buhgalteriya/otchet_0015.txt:0380 | Чай Earl Grey | 23 шт. | 9200 руб.
+2025/buhgalteriya/otchet_0015.txt:0389 | Чай Earl Grey | 10 шт. | 5900 руб.
+2025/buhgalteriya/otchet_0015.txt:0406 | Чай Earl Grey | 8 шт. | 5600 руб.
+2025/buhgalteriya/otchet_0015.txt:0416 | Чай Earl Grey | 41 шт. | 11070 руб.
+2025/buhgalteriya/otchet_0015.txt:0435 | Чай Earl Grey | 18 шт. | 13500 руб.
+2025/buhgalteriya/otchet_0015.txt:0444 | Чай Earl Grey | 10 шт. | 2400 руб.
+2025/buhgalteriya/otchet_0015.txt:0470 | Чай Earl Grey | 37 шт. | 29230 руб.
+2025/buhgalteriya/otchet_0015.txt:0475 | Чай Earl Grey | 44 шт. | 43120 руб.
+2025/buhgalteriya/otchet_0015.txt:0508 | Чай Earl Grey | 16 шт. | 5600 руб.
+2025/buhgalteriya/otchet_0015.txt:0512 | Чай Earl Grey | 22 шт. | 14080 руб.
+2025/buhgalteriya/otchet_0015.txt:0550 | Чай Earl Grey | 12 шт. | 9360 руб.
+2025/buhgalteriya/otchet_0015.txt:0583 | Чай Earl Grey | 42 шт. | 28140 руб.
+2025/buhgalteriya/otchet_0015.txt:0599 | Чай Earl Grey | 1 шт. | 560 руб.
+2025/buhgalteriya/otchet_0015.txt:0601 | Чай Earl Grey | 25 шт. | 18000 руб.
+2025/buhgalteriya/otchet_0015.txt:0625 | Чай Earl Grey | 34 шт. | 12240 руб.
+2025/buhgalteriya/otchet_0015.txt:0639 | Чай Earl Grey | 26 шт. | 13780 руб.
+2025/buhgalteriya/otchet_0015.txt:0664 | Чай Earl Grey | 26 шт. | 25740 руб.
+2025/buhgalteriya/otchet_0015.txt:0671 | Чай Earl Grey | 34 шт. | 18700 руб.
+2025/buhgalteriya/otchet_0015.txt:0676 | Чай Earl Grey | 17 шт. | 7140 руб.
+2025/buhgalteriya/otchet_0015.txt:0689 | Чай Earl Grey | 30 шт. | 24000 руб.
+2025/buhgalteriya/otchet_0015.txt:0690 | Чай Earl Grey | 50 шт. | 45500 руб.
+2025/buhgalteriya/otchet_0015.txt:0748 | Чай Earl Grey | 45 шт. | 25200 руб.
+2025/buhgalteriya/otchet_0015.txt:0755 | Чай Earl Grey | 32 шт. | 9920 руб.
+2025/buhgalteriya/otchet_0015.txt:0759 | Чай Earl Grey | 3 шт. | 2310 руб.
+2025/buhgalteriya/otchet_0015.txt:0775 | Чай Earl Grey | 4 шт. | 1160 руб.
+2025/buhgalteriya/otchet_0015.txt:0821 | Чай Earl Grey | 35 шт. | 17500 руб.
+2025/buhgalteriya/otchet_0015.txt:0824 | Чай Earl Grey | 49 шт. | 40670 руб.
+2025/buhgalteriya/otchet_0015.txt:0827 | Чай Earl Grey | 4 шт. | 640 руб.
+2025/buhgalteriya/otchet_0015.txt:0834 | Чай Earl Grey | 1 шт. | 950 руб.
+2025/buhgalteriya/otchet_0015.txt:0835 | Чай Earl Grey | 45 шт. | 29700 руб.
+2025/buhgalteriya/otchet_0015.txt:0842 | Чай Earl Grey | 9 шт. | 1620 руб.
+2025/buhgalteriya/otchet_0015.txt:0870 | Чай Earl Grey | 36 шт. | 35280 руб.
+2025/buhgalteriya/otchet_0015.txt:0884 | Чай Earl Grey | 22 шт. | 14300 руб.
+2025/buhgalteriya/otchet_0015.txt:0890 | Чай Earl Grey | 46 шт. | 16560 руб.
+2025/buhgalteriya/otchet_0015.txt:0942 | Чай Earl Grey | 43 шт. | 28380 руб.
+2025/buhgalteriya/otchet_0015.txt:0949 | Чай Earl Grey | 33 шт. | 19470 руб.
+2025/buhgalteriya/otchet_0015.txt:0952 | Чай Earl Grey | 7 шт. | 6300 руб.
+2025/buhgalteriya/otchet_0015.txt:0967 | Чай Earl Grey | 5 шт. | 900 руб.
+2025/buhgalteriya/otchet_0015.txt:0968 | Чай Earl Grey | 43 шт. | 27950 руб.
+2025/buhgalteriya/otchet_0015.txt:0986 | Чай Earl Grey | 35 шт. | 8750 руб.
+2025/buhgalteriya/otchet_0015.txt:1008 | Чай Earl Grey | 40 шт. | 28400 руб.
+2025/buhgalteriya/otchet_0015.txt:1036 | Чай Earl Grey | 31 шт. | 18910 руб.
+2025/buhgalteriya/otchet_0015.txt:1044 | Чай Earl Grey | 42 шт. | 18480 руб.
+2025/buhgalteriya/otchet_0015.txt:1055 | Чай Earl Grey | 38 шт. | 25460 руб.
+2025/buhgalteriya/otchet_0015.txt:1071 | Чай Earl Grey | 2 шт. | 1780 руб.
+2025/buhgalteriya/otchet_0015.txt:1078 | Чай Earl Grey | 49 шт. | 36260 руб.
+2025/buhgalteriya/otchet_0015.txt:1082 | Чай Earl Grey | 16 шт. | 6080 руб.
+2025/buhgalteriya/otchet_0015.txt:1135 | Чай Earl Grey | 28 шт. | 4760 руб.
+2025/buhgalteriya/otchet_0015.txt:1141 | Чай Earl Grey | 37 шт. | 12580 руб.
+2025/buhgalteriya/otchet_0015.txt:1147 | Чай Earl Grey | 36 шт. | 8280 руб.
+2025/buhgalteriya/otchet_0015.txt:1186 | Чай Earl Grey | 24 шт. | 20400 руб.
+2025/sklad/pismo_0014.txt:Чай Earl Grey закончился, нужно заказать ещё.
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$ grep -r "earl grey"
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$ grep -ri "earl grey"
+2022/sklad/nakladnaya_0002.txt:2. Чай Earl Grey — 20 шт. × 300 руб.
+2023/sklad/nakladnaya_0005.txt:2. Чай Earl Grey — 10 шт. × 300 руб.
+2024/sklad/otchet_0010.txt:- Принято товара: Чай Earl Grey, 200 шт.
+2025/buhgalteriya/otchet_0015.txt:0001 | Чай Earl Grey | 22 шт. | 12100 руб.
+2025/buhgalteriya/otchet_0015.txt:0004 | Чай Earl Grey | 26 шт. | 23140 руб.
+2025/buhgalteriya/otchet_0015.txt:0017 | Чай Earl Grey | 38 шт. | 25840 руб.
+2025/buhgalteriya/otchet_0015.txt:0041 | Чай Earl Grey | 20 шт. | 6000 руб.
+2025/buhgalteriya/otchet_0015.txt:0051 | Чай Earl Grey | 46 шт. | 16100 руб.
+2025/buhgalteriya/otchet_0015.txt:0052 | Чай Earl Grey | 20 шт. | 3800 руб.
+2025/buhgalteriya/otchet_0015.txt:0060 | Чай Earl Grey | 6 шт. | 3840 руб.
+2025/buhgalteriya/otchet_0015.txt:0097 | Чай Earl Grey | 41 шт. | 16400 руб.
+2025/buhgalteriya/otchet_0015.txt:0115 | Чай Earl Grey | 22 шт. | 6380 руб.
+2025/buhgalteriya/otchet_0015.txt:0117 | Чай Earl Grey | 9 шт. | 3870 руб.
+2025/buhgalteriya/otchet_0015.txt:0122 | Чай Earl Grey | 11 шт. | 2860 руб.
+2025/buhgalteriya/otchet_0015.txt:0127 | Чай Earl Grey | 5 шт. | 600 руб.
+2025/buhgalteriya/otchet_0015.txt:0130 | Чай Earl Grey | 16 шт. | 2080 руб.
+2025/buhgalteriya/otchet_0015.txt:0162 | Чай Earl Grey | 22 шт. | 2640 руб.
+2025/buhgalteriya/otchet_0015.txt:0163 | Чай Earl Grey | 35 шт. | 16800 руб.
+2025/buhgalteriya/otchet_0015.txt:0169 | Чай Earl Grey | 16 шт. | 15520 руб.
+2025/buhgalteriya/otchet_0015.txt:0196 | Чай Earl Grey | 24 шт. | 11520 руб.
+2025/buhgalteriya/otchet_0015.txt:0202 | Чай Earl Grey | 37 шт. | 6660 руб.
+2025/buhgalteriya/otchet_0015.txt:0207 | Чай Earl Grey | 5 шт. | 4850 руб.
+2025/buhgalteriya/otchet_0015.txt:0211 | Чай Earl Grey | 17 шт. | 4590 руб.
+2025/buhgalteriya/otchet_0015.txt:0217 | Чай Earl Grey | 18 шт. | 17280 руб.
+2025/buhgalteriya/otchet_0015.txt:0219 | Чай Earl Grey | 47 шт. | 23030 руб.
+2025/buhgalteriya/otchet_0015.txt:0225 | Чай Earl Grey | 40 шт. | 4800 руб.
+2025/buhgalteriya/otchet_0015.txt:0279 | Чай Earl Grey | 10 шт. | 7500 руб.
+2025/buhgalteriya/otchet_0015.txt:0288 | Чай Earl Grey | 23 шт. | 13340 руб.
+2025/buhgalteriya/otchet_0015.txt:0289 | Чай Earl Grey | 24 шт. | 18720 руб.
+2025/buhgalteriya/otchet_0015.txt:0346 | Чай Earl Grey | 39 шт. | 10920 руб.
+2025/buhgalteriya/otchet_0015.txt:0380 | Чай Earl Grey | 23 шт. | 9200 руб.
+2025/buhgalteriya/otchet_0015.txt:0389 | Чай Earl Grey | 10 шт. | 5900 руб.
+2025/buhgalteriya/otchet_0015.txt:0406 | Чай Earl Grey | 8 шт. | 5600 руб.
+2025/buhgalteriya/otchet_0015.txt:0416 | Чай Earl Grey | 41 шт. | 11070 руб.
+2025/buhgalteriya/otchet_0015.txt:0435 | Чай Earl Grey | 18 шт. | 13500 руб.
+2025/buhgalteriya/otchet_0015.txt:0444 | Чай Earl Grey | 10 шт. | 2400 руб.
+2025/buhgalteriya/otchet_0015.txt:0470 | Чай Earl Grey | 37 шт. | 29230 руб.
+2025/buhgalteriya/otchet_0015.txt:0475 | Чай Earl Grey | 44 шт. | 43120 руб.
+2025/buhgalteriya/otchet_0015.txt:0508 | Чай Earl Grey | 16 шт. | 5600 руб.
+2025/buhgalteriya/otchet_0015.txt:0512 | Чай Earl Grey | 22 шт. | 14080 руб.
+2025/buhgalteriya/otchet_0015.txt:0550 | Чай Earl Grey | 12 шт. | 9360 руб.
+2025/buhgalteriya/otchet_0015.txt:0583 | Чай Earl Grey | 42 шт. | 28140 руб.
+2025/buhgalteriya/otchet_0015.txt:0599 | Чай Earl Grey | 1 шт. | 560 руб.
+2025/buhgalteriya/otchet_0015.txt:0601 | Чай Earl Grey | 25 шт. | 18000 руб.
+2025/buhgalteriya/otchet_0015.txt:0625 | Чай Earl Grey | 34 шт. | 12240 руб.
+2025/buhgalteriya/otchet_0015.txt:0639 | Чай Earl Grey | 26 шт. | 13780 руб.
+2025/buhgalteriya/otchet_0015.txt:0664 | Чай Earl Grey | 26 шт. | 25740 руб.
+2025/buhgalteriya/otchet_0015.txt:0671 | Чай Earl Grey | 34 шт. | 18700 руб.
+2025/buhgalteriya/otchet_0015.txt:0676 | Чай Earl Grey | 17 шт. | 7140 руб.
+2025/buhgalteriya/otchet_0015.txt:0689 | Чай Earl Grey | 30 шт. | 24000 руб.
+2025/buhgalteriya/otchet_0015.txt:0690 | Чай Earl Grey | 50 шт. | 45500 руб.
+2025/buhgalteriya/otchet_0015.txt:0748 | Чай Earl Grey | 45 шт. | 25200 руб.
+2025/buhgalteriya/otchet_0015.txt:0755 | Чай Earl Grey | 32 шт. | 9920 руб.
+2025/buhgalteriya/otchet_0015.txt:0759 | Чай Earl Grey | 3 шт. | 2310 руб.
+2025/buhgalteriya/otchet_0015.txt:0775 | Чай Earl Grey | 4 шт. | 1160 руб.
+2025/buhgalteriya/otchet_0015.txt:0821 | Чай Earl Grey | 35 шт. | 17500 руб.
+2025/buhgalteriya/otchet_0015.txt:0824 | Чай Earl Grey | 49 шт. | 40670 руб.
+2025/buhgalteriya/otchet_0015.txt:0827 | Чай Earl Grey | 4 шт. | 640 руб.
+2025/buhgalteriya/otchet_0015.txt:0834 | Чай Earl Grey | 1 шт. | 950 руб.
+2025/buhgalteriya/otchet_0015.txt:0835 | Чай Earl Grey | 45 шт. | 29700 руб.
+2025/buhgalteriya/otchet_0015.txt:0842 | Чай Earl Grey | 9 шт. | 1620 руб.
+2025/buhgalteriya/otchet_0015.txt:0870 | Чай Earl Grey | 36 шт. | 35280 руб.
+2025/buhgalteriya/otchet_0015.txt:0884 | Чай Earl Grey | 22 шт. | 14300 руб.
+2025/buhgalteriya/otchet_0015.txt:0890 | Чай Earl Grey | 46 шт. | 16560 руб.
+2025/buhgalteriya/otchet_0015.txt:0942 | Чай Earl Grey | 43 шт. | 28380 руб.
+2025/buhgalteriya/otchet_0015.txt:0949 | Чай Earl Grey | 33 шт. | 19470 руб.
+2025/buhgalteriya/otchet_0015.txt:0952 | Чай Earl Grey | 7 шт. | 6300 руб.
+2025/buhgalteriya/otchet_0015.txt:0967 | Чай Earl Grey | 5 шт. | 900 руб.
+2025/buhgalteriya/otchet_0015.txt:0968 | Чай Earl Grey | 43 шт. | 27950 руб.
+2025/buhgalteriya/otchet_0015.txt:0986 | Чай Earl Grey | 35 шт. | 8750 руб.
+2025/buhgalteriya/otchet_0015.txt:1008 | Чай Earl Grey | 40 шт. | 28400 руб.
+2025/buhgalteriya/otchet_0015.txt:1036 | Чай Earl Grey | 31 шт. | 18910 руб.
+2025/buhgalteriya/otchet_0015.txt:1044 | Чай Earl Grey | 42 шт. | 18480 руб.
+2025/buhgalteriya/otchet_0015.txt:1055 | Чай Earl Grey | 38 шт. | 25460 руб.
+2025/buhgalteriya/otchet_0015.txt:1071 | Чай Earl Grey | 2 шт. | 1780 руб.
+2025/buhgalteriya/otchet_0015.txt:1078 | Чай Earl Grey | 49 шт. | 36260 руб.
+2025/buhgalteriya/otchet_0015.txt:1082 | Чай Earl Grey | 16 шт. | 6080 руб.
+2025/buhgalteriya/otchet_0015.txt:1135 | Чай Earl Grey | 28 шт. | 4760 руб.
+2025/buhgalteriya/otchet_0015.txt:1141 | Чай Earl Grey | 37 шт. | 12580 руб.
+2025/buhgalteriya/otchet_0015.txt:1147 | Чай Earl Grey | 36 шт. | 8280 руб.
+2025/buhgalteriya/otchet_0015.txt:1186 | Чай Earl Grey | 24 шт. | 20400 руб.
+2025/sklad/pismo_0014.txt:Чай Earl Grey закончился, нужно заказать ещё.
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$ grep -l "Earl Grey"
+
+
+
+
+
+
+
+
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$ ^C
+
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$ ^C
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$  grep -l "Earl Grey"
+`grep -rl "Earl Grey"
+(standard input)
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$ grep -rl "Earl Grey"
+2022/sklad/nakladnaya_0002.txt
+2023/sklad/nakladnaya_0005.txt
+2024/sklad/otchet_0010.txt
+2025/buhgalteriya/otchet_0015.txt
+2025/sklad/pismo_0014.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$ grep -ril "Earl Grey"
+2022/sklad/nakladnaya_0002.txt
+2023/sklad/nakladnaya_0005.txt
+2024/sklad/otchet_0010.txt
+2025/buhgalteriya/otchet_0015.txt
+2025/sklad/pismo_0014.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1/archive (q2)
+$
+ 62  `grep -ri "HINT-1"
+
+grep -ri "HINT-1"
+   63  grep -ri "HINT-1"
+   64  grep -ri "kladovshik"
+   65   grep -ri "стеллаж №4"
+   66  grep -rl "стеллаж №4"
+   67  grep "Слово"
+   68  grep -r "Слово" 2025/buhgalteriya/otchet_0015.txt
+   69  grep "Слово" 2025/buhgalteriya/otchet_0015.txt
+   70  grep "cлово" 2025/buhgalteriya/otchet_0015.txt
+   71  grep "." 2025/buhgalteriya/otchet_0015.txt
+   72  grep "LIMONAD"
+   73   grep "LIMONAD" .
+   74  grep -ri "LIMONAD"
+   75  grep "." 2025/sklad/pismo_0014
+   76   grep "." 2025/sklad/pismo_0014.txt
+   77   cd . .
+   78  cd .
+   79  cd ..
+   80  clear
+   81  history
+CODE: KLUBNIKA
