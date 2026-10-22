@@ -1,0 +1,225 @@
+ ls
+README.md  commands.txt  create_passwords.sh*
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ create_passwords.sh
+bash: create_passwords.sh: command not found
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ bash create_passwords.sh
+Ой! Вася сохранил файл passwords.txt прямо в папку проекта.
+Возвращайся к README.md — шаг 2.
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ cat passwords.txt
+# Пароли ООО «Рога и Копыта». НИКОМУ НЕ ПОКАЗЫВАТЬ!!!
+# Вася, бухгалтерия
+
+Почта директора:  director / Ponchik2024!
+Wi-Fi в офисе:    RogaKopyta_Guest / 12345678
+Бухгалтерия:      buh / qwerty
+Сервер:           admin / admin
+Банк-клиент:      roga_kopyta / ne_ugadaesh_123
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git status
+On branch q3
+Your branch is up to date with 'origin/q3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        commands.txt
+        passwords.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ touch.gitignore
+bash: touch.gitignore: command not found
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ touch .gitignore
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ echo passwords.txt
+passwords.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ cat .gitignore
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ cat  .gitignore
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ ls -a
+./  ../  .git/  .gitattributes  .gitignore  README.md  commands.txt  create_passwords.sh*  passwords.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ ls
+README.md  commands.txt  create_passwords.sh*  passwords.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ echo " .gitignore" >  passwords.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ ls
+README.md  commands.txt  create_passwords.sh*  passwords.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ ls -a
+./  ../  .git/  .gitattributes  .gitignore  README.md  commands.txt  create_passwords.sh*  passwords.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git status
+On branch q3
+Your branch is up to date with 'origin/q3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        commands.txt
+        passwords.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ `cat .gitignore
+>
+>
+> ^C
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ `cat .gitignore
+> cat .gitignore
+> ^C
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ cat .gitignore
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$  echo ".gitignore" >  passwords.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ cat .gitignore
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git status
+On branch q3
+Your branch is up to date with 'origin/q3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        commands.txt
+        passwords.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git restore --staged passwords.txt
+error: pathspec 'passwords.txt' did not match any file(s) known to git
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$  echo "passwords.txt" > .gitignore
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$  cat .gitignore
+passwords.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git status
+On branch q3
+Your branch is up to date with 'origin/q3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git add .gitignore
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git add commands.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git status
+On branch q3
+Your branch is up to date with 'origin/q3'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   commands.txt
+
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git push
+
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git push
+fatal: unable to access 'https://github.com/Margo228120/TASK_1.git/': Could not resolve host: github.com
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git commit m- "gitignore"
+error: pathspec 'm-' did not match any file(s) known to git
+error: pathspec 'gitignore' did not match any file(s) known to git
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git commit
+hint: Waiting for your editor to close the file... unix2dos: converting file C:/Users/stoun/projects/TASK_1/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file C:/Users/stoun/projects/TASK_1/.git/COMMIT_EDITMSG to Unix format...
+Aborting commit due to empty commit message.
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git status
+On branch q3
+Your branch is up to date with 'origin/q3'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   commands.txt
+
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git commit
+hint: Waiting for your editor to close the file... unix2dos: converting file C:/Users/stoun/projects/TASK_1/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file C:/Users/stoun/projects/TASK_1/.git/COMMIT_EDITMSG to Unix format...
+Aborting commit due to empty commit message.
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$  git commit
+hint: Waiting for your editor to close the file... unix2dos: converting file C:/Users/stoun/projects/TASK_1/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file C:/Users/stoun/projects/TASK_1/.git/COMMIT_EDITMSG to Unix format...
+Aborting commit due to empty commit message.
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git commit -m "password"
+[q3 0043646] password
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 commands.txt
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 413 bytes | 413.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Margo228120/TASK_1.git
+   3bafc3d..0043646  q3 -> q3
+
+stoun@LAPTOP-722JLCU6 UCRT64 ~/projects/TASK_1 (q3)
+$
